@@ -1,0 +1,21 @@
+<h1>
+    Task-1
+</h1>
+<div class="container">
+
+    <div class="border border-primary">
+        <div class="form-group">
+
+            <select class="drop-box">
+                <option class="text-box" value="" disabled selected hidden>Availablity</option>
+                <option *ngFor="let user of users">
+                    {{user}}
+                </option>
+
+            </select><br>
+            <input class="set-point" required min="0" max="500" type="number" placeholder="Set Point"><br>
+            <input class="check_box" type="checkbox" [(ngModel)]='terms' name="terms" required> Required<br />
+            <input class="user_name" type="text" [(ngModel)]='Name' name="Name" minlength="10" placeholder="Name"><br />
+        </div>
+    </div>
+</div>

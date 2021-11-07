@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+}
+
+  .border{
+    width: auto;
+    height: 350px;
+    padding: 40px;  
+    border: 15px solid #5b9bd5;
+  }
+  .drop-box{
+    margin-bottom: 25px;
+    background-color: #5b9bd5;
+    border: 2px solid #c9c9c9;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    padding: 8px;
+    width: 50%;
+    height: 45px;
+  }
+  .set-point{
+    margin-bottom: 25px;
+    background-color: #5b9bd5;
+    border: 2px solid #c9c9c9;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    padding: 8px;
+    width: 50%;
+    height: 45px
+  }
+  ::placeholder{
+    color: white;
+  }
+  .req-form{
+    background-color: #5b9bd5;
+    border: 2px solid #c9c9c9;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    padding: 8px;
+    width: 50%;
+    height: 45px
+  }
+  .user_name{
+    background-color: #5b9bd5;
+    border: 2px solid #c9c9c9;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    padding: 8px;
+    width: 50%;
+    height: 45px
+  }
+  .check_box{
+    margin-bottom: 25px;
+  }

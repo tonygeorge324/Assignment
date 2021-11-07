@@ -1,0 +1,51 @@
+<h1>
+    Task-2
+</h1>
+<div class="container">
+    <div class="border border-primary">
+
+        <div class="form-group">
+
+            <div class="text-box" *ngFor="let user of users"
+                (click)="onselect(user)">
+                {{user.name}}
+            </div>
+
+
+
+        </div>
+        <div *ngIf="selectedUser">
+            <table>
+                <tr>
+                    <th>
+                        Name:- {{selectedUser.name}}
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        Power Limit:- {{selectedUser.powerLimit}}
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        Minimum Set Point:- {{selectedUser.minSetpoint}}
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        Maximum Set Point:- {{selectedUser.maxSetpoint}}
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        Enabled:- {{selectedUser.enabled}}
+                    </th>
+                </tr>
+
+            </table>
+
+
+        </div>
+    </div>
+
+</div>
